@@ -1,5 +1,9 @@
 # Requirements: District Clinic Appointment & Queue System (M1)
 
+Status: DRAFT for team review.
+
+Roles note: clinic manager and clinic administrator are separate roles. The manager sees reports; the administrator manages accounts, roles and the audit log. Keeping them apart means the person who can read the audit log is not the person whose scheduling decisions it evidences.
+
 ## 1. Stakeholders
 
 | Stakeholder | Role and interest |
@@ -8,7 +12,8 @@
 | Receptionists / front desk staff | Register patients, manage the daily appointment list, handle walk-ins |
 | Nurses | See who is waiting and in what order |
 | Doctors / clinicians | See their daily list and patient flow |
-| Clinic manager / administrator | Monitors no-shows and waiting times, manages staff accounts |
+| Clinic manager | Monitors no-shows and waiting times to plan staffing and scheduling. Sees reports only |
+| Clinic administrator | Creates staff accounts, assigns roles and reviews the audit log. Does not open patient records in the course of care |
 | District health office / health authority | Interested in clinic performance and compliance with health regulations |
 | Data protection regulator | Cares about Act 843 compliance for patient data |
 | SMS / USSD provider (simulated) | External service the system depends on for notifications |
@@ -252,6 +257,8 @@ With US-01 to US-06, this gives 13 stories, one more than the minimum of 12.
 
 ## 4. Non-functional requirements (at least 6, measurable, ISO 25010)
 
+The numbers below are proposals for the team to agree on. Each one names a quality, a metric and threshold, the conditions, and how it will be verified.
+
 | ID | ISO 25010 quality | Requirement | Verification |
 | --- | --- | --- | --- |
 | NFR-01 | Reliability (availability) | Booking, check-in and queue functions are available at least 99.5% of the time during clinic hours (07:00 to 18:00, Monday to Friday), measured per calendar month. | Uptime monitoring on staging using the /health endpoint; availability calculated from the monitoring record. |
@@ -291,8 +298,6 @@ With US-01 to US-06, this gives 13 stories, one more than the minimum of 12.
 - US-02 is a Could because the handbook allows booking by "web/USSD-style simulation", so the web booking in US-01 meets the requirement on its own.
 - US-12 is a Must because role-based access is a named engineering challenge.
 - US-13 is a Should for now. Writing audit entries is covered by NFR-05, and reviewing them on screen can follow.
-
-**Won't have this semester:** a real SMS or USSD provider, and any real patient data (the handbook allows sandbox or simulated services only).
 
 ## 6. Context map
 
