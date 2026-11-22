@@ -1,9 +1,5 @@
 # Requirements: District Clinic Appointment & Queue System (M1)
 
-Status: DRAFT for team review.
-
-Roles note: clinic manager and clinic administrator are separate roles. The manager sees reports; the administrator manages accounts, roles and the audit log. Keeping them apart means the person who can read the audit log is not the person whose scheduling decisions it evidences.
-
 ## 1. Stakeholders
 
 | Stakeholder | Role and interest |
