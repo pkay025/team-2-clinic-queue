@@ -21,7 +21,7 @@ A system for district clinics where patients book appointments, receive live que
 - Role-based access
 - Audit trails
 
-This project uses sandbox or simulated services only. No real patient data is stored anywhere in this repository.
+This project uses sandbox or simulated services only. No real patient data is stored anywhere.
 
 ## Staging
 
