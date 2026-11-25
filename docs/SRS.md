@@ -676,5 +676,3 @@ Each minimum feature required by the project specification is covered by at leas
 | Availability during clinic hours | US-08, US-09 | NFR-01, NFR-02, NFR-06 |
 | Role-based access | US-12 | NFR-04 |
 | Audit trails | US-10, US-13 | NFR-05 |
-
----
