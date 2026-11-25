@@ -49,7 +49,8 @@ docker-compose up --build
 | Felicity Dzidzorli Zanu - Tsikata | QA Lead | Fel-Tsikata |
 | Kelvin Kwame Tetteh | DevOps / Platform Lead | kelvintk1 |
 | ⁠Purity Abena Kyei | Security & Privacy Lead | Purity1919 |
-| Ama Okyerewaa Ofori and Bernardina Nyanyuie Senadza | UX & Documentation Lead | Oky-of and D-codes-it |
+| Bernardina Nyanyuie Senadza | UX & Documentation Lead | D-codes-it |
+| Ama Okyerewaa Ofori | SMS/USSD simulation and integrations | Oky-of |
 
 ## Repository structure
 
