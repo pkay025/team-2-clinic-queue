@@ -1,12 +1,5 @@
 # Software Requirements Specification
 
-| | |
-| --- | --- |
-| **Course** | DCIT 415 Advanced Software Engineering |
-| **Team** | Group 2 |
-| **Project** | P5, District Clinic Appointment & Queue System |
-| **Document** | Software Requirements Specification (M1) |
-
 ---
 
 # 1. Introduction
