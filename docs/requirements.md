@@ -342,7 +342,7 @@ With US-01 to US-13 this gives 13 stories, one more than the minimum of 12.
 
 ## 4. Non-functional requirements (at least 6, measurable, ISO 25010)
 
-The numbers below are proposals for the team to agree on. Each one names a quality, a metric and threshold, the conditions, and how it will be verified.
+Each one names a quality, a metric and threshold, the conditions, and how it will be verified.
 
 | ID | ISO 25010 quality | Requirement | Verification |
 | --- | --- | --- | --- |
